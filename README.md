@@ -24,26 +24,43 @@ Camera → Preprocessing → Detection → Tracking → Analytics → Display
 
 5. Struct project
 opencv-tracking-system/
+
 │
+
 ├── src/
+
 │   ├── main.cpp
+
 │   ├── VideoCapture.cpp
+
 │   ├── FrameProcessor.cpp
+
 │   ├── Detector.cpp
+
 │   ├── Tracker.cpp
+
 │   ├── Analytics.cpp
+
 │
+
 ├── include/
+
 │   ├── Detector.h
+
 │   ├── Tracker.h
+
 │
+
 ├── CMakeLists.txt
+
 ├── README.md
+
 ├── demo.mp4
 
 6. Build & Run
-mkdir build
-cd build
-cmake ..
-make
-./main
+
+- mkdir build
+- cd build
+- cmake ..
+- make
+- ./main
