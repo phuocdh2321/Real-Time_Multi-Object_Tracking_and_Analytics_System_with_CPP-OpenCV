@@ -11,10 +11,9 @@ Optimized memory usage and processing latency, achieving stable real-time perfor
 - Processing
 
 2. Architecture diagram
-
 Camera → Preprocessing → Detection → Tracking → Analytics → Display
 
-3. Performance
+4. Performance
 - FPS: 25–30
 - Resolution: 720p
 
