@@ -8,7 +8,7 @@ Designed modular and scalable architecture with multithreading to separate frame
 Optimized memory usage and processing latency, achieving stable real-time performance.
 
 1. Demo GIF/video
-- Processing
+- demo.mp4
 
 2. Architecture diagram
 Camera → Preprocessing → Detection → Tracking → Analytics → Display
@@ -40,3 +40,10 @@ opencv-tracking-system/
 ├── CMakeLists.txt
 ├── README.md
 ├── demo.mp4
+
+6. Build & Run
+mkdir build
+cd build
+cmake ..
+make
+./main
