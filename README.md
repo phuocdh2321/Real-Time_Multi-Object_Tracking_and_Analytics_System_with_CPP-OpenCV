@@ -11,7 +11,7 @@ Optimized memory usage and processing latency, achieving stable real-time perfor
 - demo.mp4
 
 2. Architecture diagram
-Camera → Preprocessing → Detection → Tracking → Analytics → Display
+- Camera → Preprocessing → Detection → Tracking → Analytics → Display
 
 4. Performance
 - FPS: 25–30
