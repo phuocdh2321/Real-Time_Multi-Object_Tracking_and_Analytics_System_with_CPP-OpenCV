@@ -46,9 +46,15 @@ opencv-tracking-system/
 
 ├── include/
 
+│   ├── VideoCapture.h
+
+│   ├── FrameProcessor.h
+
 │   ├── Detector.h
 
 │   ├── Tracker.h
+
+│   ├── Analytics.h
 
 │
 
