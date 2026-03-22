@@ -11,6 +11,7 @@ Optimized memory usage and processing latency, achieving stable real-time perfor
 - Processing
 
 2. Architecture diagram
+
 Camera → Preprocessing → Detection → Tracking → Analytics → Display
 
 3. Performance
@@ -21,3 +22,22 @@ Camera → Preprocessing → Detection → Tracking → Analytics → Display
 - Multi-object tracking
 - Real-time processing
 - Line crossing detection
+
+5. Struct project
+opencv-tracking-system/
+│
+├── src/
+│   ├── main.cpp
+│   ├── VideoCapture.cpp
+│   ├── FrameProcessor.cpp
+│   ├── Detector.cpp
+│   ├── Tracker.cpp
+│   ├── Analytics.cpp
+│
+├── include/
+│   ├── Detector.h
+│   ├── Tracker.h
+│
+├── CMakeLists.txt
+├── README.md
+├── demo.mp4
